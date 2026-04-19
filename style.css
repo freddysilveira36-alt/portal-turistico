@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7f5;
+    color: #033;
+}
+
+/* HEADER */
+header {
+    background-color: #0a7c6f;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MAIN */
+main {
+    padding: 20px;
+}
+
+/* SECTIONS */
+section {
+    margin-bottom: 30px;
+}
+
+/* FLEX CONTAINER */
+.flex {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+button {
+    background-color: #0a7c6f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+    background-color: #0a7c6f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #065f55;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #a7f3e9;
+}
+.dupla {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.dupla .card {
+    flex: 1;
+    min-width: 280px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+.destaques p {
+    line-height: 1.8;
+}
